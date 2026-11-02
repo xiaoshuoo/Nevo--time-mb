@@ -1,0 +1,275 @@
+.slider {
+  position: relative;
+  width: 1200px;
+  height: 405px;
+  margin: 20px auto 0;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+}
+
+.slider-img {
+  position: absolute;
+  left: 0;
+  top: -413px;
+  width: 1475px;
+  height: auto;
+}
+
+.slider-shade {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #000, rgba(0, 0, 0, 0) 69%);
+}
+
+.slider-text {
+  position: absolute;
+  left: 84px;
+  top: 89px;
+}
+
+.slider-title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.slider-desc {
+  margin-top: 20px;
+  font-size: 14.6px;
+  font-weight: 300;
+  line-height: 24.5px;
+}
+
+.slider-note {
+  position: absolute;
+  left: 84px;
+  top: 301px;
+  font-size: 11px;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 173px;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider-arrow img {
+  height: 30px;
+  width: auto;
+}
+
+.slider-arrow--left {
+  left: 5px;
+}
+
+.slider-arrow--right {
+  right: 5px;
+}
+
+.slider-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 374px;
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.dot::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.dot.active::before {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+.catalog-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 44px;
+  height: 47px;
+}
+
+.catalog-head h1 {
+  line-height: 47px;
+}
+
+.search {
+  position: relative;
+  width: 380px;
+  height: 47px;
+}
+
+.search img {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  width: 14px;
+  height: 14px;
+}
+
+.search input {
+  width: 100%;
+  height: 47px;
+  padding: 0 20px 0 41px;
+  background: #f7f7f7;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.search input::placeholder {
+  color: #989898;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 277px);
+  justify-content: space-between;
+  row-gap: 8px;
+  margin-top: 28px;
+}
+
+.card {
+  position: relative;
+  height: 445px;
+  padding-top: 36px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  background: #fff;
+  box-shadow: 0 4px 13px rgba(30, 35, 66, 0.11);
+}
+
+.card.hidden {
+  display: none;
+}
+
+.card img {
+  width: 160px;
+  height: 229px;
+  margin: 0 auto;
+}
+
+.badge {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 50px;
+  height: 26px;
+  background: #ff543d;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.badge--low {
+  top: 37px;
+}
+
+.card-name {
+  display: inline-block;
+  margin-top: 34px;
+  font-size: 13px;
+  line-height: 20px;
+  border-bottom: 1px solid transparent;
+}
+
+.card:hover .card-name {
+  border-bottom-color: #000;
+}
+
+.card-price {
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.card-price s {
+  margin-right: 8px;
+  font-weight: 400;
+}
+
+.card-price b {
+  font-weight: 600;
+}
+
+.btn-cart {
+  display: block;
+  width: 151px;
+  height: 48px;
+  margin: 22px auto 0;
+  border: 1px solid #cdb494;
+  background: #cdb494;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.btn-cart--outline {
+  background: #fff;
+  color: #cdb494;
+}
+
+.card:hover .btn-cart {
+  background: #000;
+  border-color: #000;
+  color: #fff;
+}
+
+.nothing {
+  display: none;
+  margin-top: 28px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.show-more {
+  display: block;
+  width: 181px;
+  height: 47px;
+  margin: 33px auto 92px;
+  border: 1px solid #000;
+  background: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.show-more:hover {
+  background: #000;
+  color: #fff;
+}

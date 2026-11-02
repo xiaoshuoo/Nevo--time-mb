@@ -1,0 +1,153 @@
+.hero {
+  position: relative;
+  height: 638px;
+  background: #e5edef;
+  overflow: hidden;
+}
+
+.hero-img {
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  margin-left: -679px;
+  width: 1736px;
+  height: auto;
+}
+
+.hero-fade {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -679px;
+  width: 254px;
+  height: 100%;
+  background: linear-gradient(to right, #e5edef, rgba(229, 237, 239, 0));
+}
+
+.hero-content {
+  position: absolute;
+  left: 0;
+  top: 192px;
+}
+
+.hero-content h1 {
+  font-size: 53px;
+  line-height: 70px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 31px;
+  margin-top: 33px;
+}
+
+.hero-buttons .btn-outline {
+  background: transparent;
+}
+
+.hero-buttons .btn-outline:hover {
+  background: #000;
+}
+
+.categories {
+  padding: 100px 0;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  gap: 59px;
+  margin-bottom: 100px;
+}
+
+.category:last-child {
+  margin-bottom: 0;
+}
+
+.category--reverse {
+  flex-direction: row-reverse;
+}
+
+.category img {
+  width: 790px;
+  height: 374px;
+  object-fit: cover;
+}
+
+.category-text {
+  width: 351px;
+}
+
+.category-text h2 {
+  font-size: 34px;
+  line-height: 50px;
+}
+
+.category-text .btn-outline {
+  margin-top: 24px;
+  min-width: 181px;
+  height: 47px;
+}
+
+.reasons {
+  padding: 82px 0 95px;
+  background: #f7f7f7;
+}
+
+.reasons h2 {
+  font-size: 34px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.reasons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1230px;
+  margin: 40px auto 0;
+  row-gap: 63px;
+}
+
+.reason {
+  width: 410px;
+  text-align: center;
+}
+
+.reason-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #cdb494;
+}
+
+.reason-icon img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.reason h3 {
+  margin-top: 30px;
+  font-size: 14.6px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.reason p {
+  margin-top: 15px;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.home-questions {
+  padding-bottom: 100px;
+}
+
+.hero .container {
+  height: 100%;
+}

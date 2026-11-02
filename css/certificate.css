@@ -1,0 +1,112 @@
+.cert-hero {
+  display: flex;
+  align-items: center;
+  height: 468px;
+}
+
+.cert-hero-text {
+  width: 520px;
+}
+
+.cert-hero-text h1 {
+  margin-bottom: 11px;
+}
+
+.cert-hero-text p {
+  font-size: 14.6px;
+  line-height: 24.5px;
+  white-space: nowrap;
+}
+
+.cert-hero-img {
+  position: absolute;
+  left: 600px;
+  top: 10px;
+  width: 514px;
+  height: 417px;
+  overflow: hidden;
+}
+
+.cert-hero-img img {
+  position: absolute;
+  left: -127px;
+  top: -52px;
+  width: 805px;
+  height: auto;
+}
+
+.steps {
+  height: 477px;
+  padding-top: 76px;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.steps h2,
+.conditions h2 {
+  font-size: 34px;
+  line-height: 56px;
+}
+
+.steps-list,
+.conditions-list {
+  display: flex;
+  justify-content: center;
+  width: 1230px;
+  margin: 50px auto 0;
+}
+
+.step,
+.condition {
+  width: 410px;
+}
+
+.step-num {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #cdb494;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.step p {
+  margin-top: 17px;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.conditions {
+  height: 443px;
+  padding-top: 76px;
+  text-align: center;
+}
+
+.conditions-list {
+  margin-top: 48px;
+}
+
+.condition img {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.condition h3 {
+  margin-top: 28px;
+  font-size: 14.6px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.cert-hero .breadcrumbs {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

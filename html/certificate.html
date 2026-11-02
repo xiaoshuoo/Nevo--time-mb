@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Подарочный сертификат — NEVA TIME</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/certificate.css">
+  <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      <a class="cart" href="catalog.html">
+        <img src="../img/icons/cart.svg" alt="Корзина">
+        <span class="cart-text">Корзина (<span id="cart-count">5</span>): <br><b id="cart-sum">34&nbsp;000&nbsp;₽</b></span>
+      </a>
+      <a class="logo" href="index.html">
+        <img src="../img/icons/logo.svg" alt="NEVA TIME">
+        <span>Фирменные аксессуары Michael Kors <br>с доставкой по всей России</span>
+      </a>
+      <div class="phone">
+        <a class="phone-number" href="tel:88003027915">8 (800) 302 79 15</a>
+        <a class="callback" href="#questions">Заказать обратный звонок</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav" id="nav">
+    <ul class="nav-list">
+      <li class="nav-item"><a href="index.html">Главная</a></li>
+      <li class="nav-item has-drop">
+        <a class="drop-link" href="#">Часы<img src="../img/icons/chevron.svg" alt=""></a>
+        <ul class="dropdown">
+          <li><a href="catalog.html">Женские часы</a></li>
+          <li><a href="catalog.html">Мужские часы</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a href="#">Сумки</a></li>
+      <li class="nav-item"><a href="#">Рюкзаки</a></li>
+      <li class="nav-item"><a href="#">Кошельки</a></li>
+      <li class="nav-item"><a href="#">Браслеты</a></li>
+      <li class="nav-item"><a href="#">Гарантия</a></li>
+      <li class="nav-item"><a href="delivery.html">Доставка</a></li>
+      <li class="nav-item"><a href="#">Отзывы</a></li>
+      <li class="nav-item has-drop">
+        <a class="drop-link" href="#">Для покупателей<img src="../img/icons/chevron.svg" alt=""></a>
+        <ul class="dropdown dropdown--wide">
+          <li><a href="certificate.html">Подарочный сертификат</a></li>
+          <li><a href="about.html">О компании</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container cert-hero">
+      <div class="breadcrumbs"><a href="index.html">Главная</a>/Подарочный сертификат</div>
+      <div class="cert-hero-text">
+        <h1>Подарочный сертификат</h1>
+        <p>У Вашего близкого человека День Рождения, праздник, годовщина <br>или Вы просто хотите порадовать его, но не можете определиться <br>с подарком? Тогда Вам идеально подойдут наши подарочные <br>сертификаты на 10.000, 15.000, 20.000 или 30.000 рублей!</p>
+      </div>
+      <div class="cert-hero-img"><img src="../img/cert-gift.webp" alt="Подарочный сертификат"></div>
+    </div>
+
+    <section class="steps">
+      <h2>Как это работает?</h2>
+      <div class="steps-list">
+        <div class="step">
+          <div class="step-num">01</div>
+          <p>Вы приобретаете подарочный <br>сертификат на нужную сумму.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <p>Мы доставляем сертификат Вам или человеку <br>которому Вы хотите сделать подарок транспортной <br>компанией или отправляем Вам файл для <br>самостоятельной печати.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <p>Человек которому Вы сделали подарок <br>переходит на наш сайт и при заказе указывает <br>уникальный номер сертификата и мы доставляем <br>именно тот подарок, который выбрал он. Вы точно не <br>ошибетесь с выбором подарка.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="conditions">
+      <h2>Условия предельно просты</h2>
+      <div class="conditions-list">
+        <div class="condition">
+          <img src="../img/icons/cond1.svg" alt="">
+          <h3>Срок действия <br>сертификата 2 месяца</h3>
+        </div>
+        <div class="condition">
+          <img src="../img/icons/cond2.svg" alt="">
+          <h3>Если размер суммы сертификат меньше, <br>чем стоимость товара, то можно доплатить <br>необходимую сумму при получении товара</h3>
+        </div>
+        <div class="condition">
+          <img src="../img/icons/cond3.svg" alt="">
+          <h3>Сертификат нельзя <br>обменять или вернуть</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="questions questions--gray about-questions" id="questions">
+    <h2>Остались вопросы?</h2>
+    <p class="questions-sub">Заполните форму и мы свяжемся с Вами</p>
+    <div class="form">
+      <input type="text" id="form-name" placeholder="Ваше имя">
+      <input type="text" id="form-phone" placeholder="Телефон">
+      <input type="text" id="form-comment" class="wide" placeholder="Комментарий">
+    </div>
+    <button class="btn-beige" id="send-button">Отправить</button>
+    <p class="form-message" id="form-message"></p>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <img class="footer-logo" src="../img/icons/logo.svg" alt="NEVA TIME">
+      <p class="footer-brand">Фирменные аксессуары Michael Kors <br>с доставкой по всей России</p>
+      <p class="footer-subscribe-title">Подпишись на новинки и скидки</p>
+      <div class="subscribe-form">
+        <input type="text" id="subscribe-email" placeholder="E-mail">
+        <button id="subscribe-button">Отправить</button>
+      </div>
+      <ul class="footer-links footer-links--1">
+        <li><a href="catalog.html">Женские часы</a></li>
+        <li><a href="catalog.html">Мужские часы</a></li>
+        <li><a href="#">Сумки</a></li>
+        <li><a href="#">Рюкзаки</a></li>
+        <li><a href="#">Кошельки</a></li>
+        <li><a href="#">Браслеты</a></li>
+      </ul>
+      <ul class="footer-links footer-links--2">
+        <li><a href="#">Гарантия</a></li>
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="#">Отзывы</a></li>
+        <li><a href="about.html#brands">Другие бренды</a></li>
+        <li><a href="certificate.html">Корпоративные подарки</a></li>
+        <li><a href="about.html">О компании</a></li>
+      </ul>
+      <div class="footer-phone">
+        <a class="phone-number" href="tel:88003027915">8 (800) 302 79 15</a>
+        <a class="callback" href="#questions">Заказать обратный звонок</a>
+      </div>
+      <div class="footer-social">
+        <a href="#"><img src="../img/icons/youtube.svg" alt="YouTube"></a>
+        <a href="#"><img src="../img/icons/vk.svg" alt="ВКонтакте"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

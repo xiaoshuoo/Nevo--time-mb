@@ -1,0 +1,155 @@
+.about-top {
+  position: relative;
+  height: 502px;
+}
+
+.about-top h1 {
+  margin-top: 38px;
+}
+
+.about-text {
+  margin-top: 19px;
+}
+
+.about-text p {
+  margin-bottom: 16px;
+  font-size: 14.6px;
+  line-height: 25px;
+  white-space: nowrap;
+}
+
+.about-text a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.about-cert {
+  position: absolute;
+  left: 600px;
+  top: 32px;
+  width: 612px;
+  height: 459px;
+  object-fit: contain;
+}
+
+.contacts {
+  padding: 40px 48px 0;
+  height: 392px;
+  border: 22px solid #f7f7f7;
+  background: #fff;
+}
+
+.contacts h2 {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.contacts-body {
+  position: relative;
+  margin-top: 29px;
+}
+
+.contact-row {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  height: 24px;
+  font-size: 14.6px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.contact-row img {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-row b {
+  font-weight: 600;
+}
+
+.contact-row a {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-row--right {
+  left: 545px;
+  gap: 9px;
+}
+
+.contact-hours {
+  display: block;
+  margin-top: 2px;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+.contact-vk {
+  position: absolute;
+  left: 0;
+  top: 190px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 14.6px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.contact-vk img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact-vk b {
+  font-weight: 600;
+}
+
+.brands h2 {
+  font-size: 34px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.brands {
+  padding: 65px 0 88px;
+}
+
+.brands-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  height: 159px;
+  border: 1px solid #e7e7e7;
+}
+
+.brand img {
+  max-width: 236px;
+  max-height: 133px;
+}
+
+.brand--armani img {
+  width: 225px;
+}
+
+.brand--diesel img {
+  width: 219px;
+}
+
+.brand--calvin img {
+  width: 236px;
+}
+
+.about-questions {
+  padding-bottom: 93px;
+}

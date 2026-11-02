@@ -1,0 +1,100 @@
+.delivery-top {
+  position: relative;
+  height: 428px;
+}
+
+.delivery-top h1 {
+  margin-top: 38px;
+}
+
+.delivery-list {
+  margin-top: 14px;
+}
+
+.delivery-list li {
+  position: relative;
+  margin-bottom: 16px;
+  padding-left: 23px;
+  font-size: 14.6px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.delivery-list li::before {
+  content: '';
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.delivery-pic {
+  position: absolute;
+  left: 511px;
+  top: 62px;
+  width: 606px;
+  height: 343px;
+}
+
+.delivery-map {
+  position: absolute;
+  left: 129px;
+  top: 0;
+  width: 503px;
+  height: 293px;
+}
+
+.delivery-car {
+  position: absolute;
+  left: 0;
+  top: 66px;
+  width: 606px;
+  height: 277px;
+}
+
+.cities {
+  padding: 48px 48px 54px;
+  border: 22px solid #f7f7f7;
+  background: #fff;
+}
+
+.cities h2 {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.city-list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(11, 24px);
+  grid-template-columns: repeat(4, 275px);
+  row-gap: 23px;
+  margin-top: 34px;
+}
+
+.city-list li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 14.6px;
+  font-weight: 400;
+}
+
+.city-list img {
+  width: 24px;
+  height: 24px;
+}
+
+.cities-note {
+  margin-top: 55px;
+  font-size: 14.6px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.delivery-questions {
+  padding-top: 67px;
+}
