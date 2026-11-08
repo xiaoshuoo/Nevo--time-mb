@@ -1,0 +1,26 @@
+[
+  {
+    "image": "img/cat-bracelets.jpg",
+    "alt": "Браслеты Michael Kors",
+    "title": "Браслеты <br>Michael Kors",
+    "position": "50% 92%"
+  },
+  {
+    "image": "img/cat-bags.jpg",
+    "alt": "Сумки Michael Kors",
+    "title": "Сумки <br>Michael Kors",
+    "position": ""
+  },
+  {
+    "image": "img/cat-backpacks.jpg",
+    "alt": "Рюкзаки Michael Kors",
+    "title": "Рюкзаки <br>Michael Kors",
+    "position": ""
+  },
+  {
+    "image": "img/cat-wallets.jpg",
+    "alt": "Кошельки Michael Kors",
+    "title": "Кошельки <br>Michael Kors",
+    "position": ""
+  }
+]
