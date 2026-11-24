@@ -133,7 +133,7 @@ h2 {
   text-underline-offset: 3px;
 }
 
-.nav {
+.nervNav {
   position: relative;
   z-index: 50;
   height: 66px;
@@ -166,7 +166,7 @@ h2 {
   transition: transform 0.2s;
 }
 
-.nav-item.open > a img {
+.nav-item:hover > a img {
   transform: rotate(180deg);
 }
 
@@ -192,7 +192,7 @@ h2 {
   border-bottom: 9px solid #cdb494;
 }
 
-.nav-item.open .dropdown {
+.nav-item:hover .dropdown {
   display: block;
 }
 
@@ -260,7 +260,7 @@ h2 {
   background: #000;
 }
 
-.questions {
+.seeleQuestions {
   position: relative;
   padding: 73px 0 93px;
   text-align: center;
@@ -306,11 +306,11 @@ h2 {
   background: #fff;
 }
 
-.questions .btn-beige {
+.seeleQuestions .btn-beige {
   margin: 40px auto 0;
 }
 
-.form-message {
+.makotoMessage {
   position: absolute;
   left: 0;
   right: 0;
@@ -320,7 +320,7 @@ h2 {
   color: #2e9b4f;
 }
 
-.form-message.error {
+.makotoMessage.error {
   color: #ff543d;
 }
 

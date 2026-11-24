@@ -1,4 +1,4 @@
-.burger {
+.shinjiBurger {
   display: none;
 }
 
@@ -36,7 +36,7 @@
     padding-bottom: 12px;
   }
 
-  .burger {
+  .shinjiBurger {
     grid-area: burger;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
     background: #f7f7f7;
   }
 
-  .burger span {
+  .shinjiBurger span {
     display: block;
     height: 2px;
     background: #000;
@@ -103,7 +103,7 @@
     font-size: 20px;
   }
 
-  .nav {
+  .nervNav {
     display: none;
     height: auto;
   }
@@ -215,7 +215,7 @@
     line-height: 36px;
   }
 
-  .reasons-list {
+  .angelReasons {
     width: auto;
     padding: 0 16px;
     column-gap: 24px;
@@ -232,14 +232,14 @@
   .step br,
   .condition br,
   .delivery-list br,
-  .slider-title br,
-  .slider-desc br,
+  .toujiTitle br,
+  .hikariDesc br,
   .reasons h2 br,
   .footer-brand br {
     display: none;
   }
 
-  .questions {
+  .seeleQuestions {
     padding: 48px 16px 56px;
   }
 
@@ -262,13 +262,13 @@
     font-size: 16px;
   }
 
-  .questions .btn-beige {
+  .seeleQuestions .btn-beige {
     width: 100%;
     max-width: 500px;
     margin-top: 24px;
   }
 
-  .form-message {
+  .makotoMessage {
     position: static;
     margin-top: 16px;
     padding: 0 16px;
@@ -376,18 +376,18 @@
   }
 
   .slider-text,
-  .slider-note {
+  .pennpennNote {
     position: relative;
     left: auto;
     top: auto;
   }
 
-  .slider-title {
+  .toujiTitle {
     font-size: 26px;
     line-height: 34px;
   }
 
-  .slider-note {
+  .pennpennNote {
     margin-top: 16px;
   }
 
@@ -437,7 +437,7 @@
     font-size: 16px;
   }
 
-  .products {
+  .evaProducts {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 16px;
     row-gap: 16px;
@@ -464,7 +464,7 @@
     max-width: 151px;
   }
 
-  .show-more {
+  .ayanamiMore {
     margin-bottom: 56px;
   }
 
@@ -536,11 +536,11 @@
     flex-shrink: 0;
   }
 
-  .brands {
+  .ikariBrands {
     padding: 48px 0 56px;
   }
 
-  .brands h2,
+  .ikariBrands h2,
   .steps h2,
   .conditions h2 {
     font-size: 26px;
@@ -733,14 +733,14 @@
 
   .category-text h2,
   .reasons h2,
-  .brands h2,
+  .ikariBrands h2,
   .steps h2,
   .conditions h2 {
     font-size: 22px;
     line-height: 30px;
   }
 
-  .reasons-list {
+  .angelReasons {
     flex-direction: column;
     align-items: center;
     row-gap: 36px;
@@ -757,12 +757,12 @@
     padding: 28px 16px 120px;
   }
 
-  .slider-title {
+  .toujiTitle {
     font-size: 22px;
     line-height: 30px;
   }
 
-  .slider-desc {
+  .hikariDesc {
     font-size: 14px;
     line-height: 22px;
   }
@@ -781,7 +781,7 @@
     right: 4px;
   }
 
-  .products {
+  .evaProducts {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 12px;
   }

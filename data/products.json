@@ -7,9 +7,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": false,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3179",
@@ -19,9 +18,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3180",
@@ -31,9 +29,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": true,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge badge--low",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3181",
@@ -43,9 +40,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3182",
@@ -55,9 +51,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": true,
-    "outline": true,
-    "extra": false
+    "badgeClass": "badge badge--low",
+    "btnClass": "btn-cart btn-cart--outline"
   },
   {
     "article": "MK3183",
@@ -67,9 +62,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": true,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart btn-cart--outline"
   },
   {
     "article": "MK3184",
@@ -79,9 +73,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": true,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart btn-cart--outline"
   },
   {
     "article": "MK3185",
@@ -91,9 +84,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": false,
-    "outline": true,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart btn-cart--outline"
   },
   {
     "article": "MK3186",
@@ -103,9 +95,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": false,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3187",
@@ -115,9 +106,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3188",
@@ -127,9 +117,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": true,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge badge--low",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3189",
@@ -139,9 +128,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3190",
@@ -151,9 +139,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": true,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge badge--low",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3191",
@@ -163,9 +150,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3192",
@@ -175,9 +161,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3193",
@@ -187,9 +172,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": false,
-    "outline": false,
-    "extra": false
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3194",
@@ -199,9 +183,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": false,
-    "extra": true
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3195",
@@ -211,9 +194,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": false,
-    "outline": false,
-    "extra": true
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3196",
@@ -223,9 +205,8 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "",
-    "badgeLow": false,
-    "outline": false,
-    "extra": true
+    "badgeClass": "badge",
+    "btnClass": "btn-cart"
   },
   {
     "article": "MK3197",
@@ -235,8 +216,7 @@
     "priceText": "11 900₽",
     "oldPriceText": "25 000 ₽",
     "badge": "Хит",
-    "badgeLow": true,
-    "outline": false,
-    "extra": true
+    "badgeClass": "badge badge--low",
+    "btnClass": "btn-cart"
   }
 ]

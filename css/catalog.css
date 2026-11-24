@@ -31,20 +31,20 @@
   top: 89px;
 }
 
-.slider-title {
+.toujiTitle {
   font-size: 30px;
   font-weight: 500;
   line-height: 42px;
 }
 
-.slider-desc {
+.hikariDesc {
   margin-top: 20px;
   font-size: 14.6px;
   font-weight: 300;
   line-height: 24.5px;
 }
 
-.slider-note {
+.pennpennNote {
   position: absolute;
   left: 84px;
   top: 301px;
@@ -149,7 +149,7 @@
   color: #989898;
 }
 
-.products {
+.evaProducts {
   display: grid;
   grid-template-columns: repeat(4, 277px);
   justify-content: space-between;
@@ -192,6 +192,10 @@
   font-weight: 500;
   line-height: 26px;
   text-transform: uppercase;
+}
+
+.badge:empty {
+  display: none;
 }
 
 .badge--low {
@@ -250,14 +254,14 @@
   color: #fff;
 }
 
-.nothing {
+.noAngel {
   display: none;
   margin-top: 28px;
   font-size: 17px;
   text-align: center;
 }
 
-.show-more {
+.ayanamiMore {
   display: block;
   width: 181px;
   height: 47px;
@@ -269,7 +273,7 @@
   text-transform: uppercase;
 }
 
-.show-more:hover {
+.ayanamiMore:hover {
   background: #000;
   color: #fff;
 }

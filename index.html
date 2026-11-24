@@ -11,10 +11,10 @@
 <body>
   <header class="header">
     <div class="container">
-      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+      <button class="shinjiBurger"><span></span><span></span><span></span></button>
       <a class="cart" href="catalog.html">
         <img src="img/icons/cart.svg" alt="Корзина">
-        <span class="cart-text">Корзина (<span id="cart-count">5</span>): <br><b id="cart-sum">34&nbsp;000&nbsp;₽</b></span>
+        <span class="cart-text">Корзина (<span class="asukaCartCount">5</span>): <br><b class="asukaCartSum">34&nbsp;000&nbsp;₽</b></span>
       </a>
       <a class="logo" href="index.html">
         <img src="img/icons/logo.svg" alt="NEVA TIME">
@@ -22,12 +22,12 @@
       </a>
       <div class="phone">
         <a class="phone-number" href="tel:88003027915">8 (800) 302 79 15</a>
-        <a class="callback" href="#questions">Заказать обратный звонок</a>
+        <a class="callback" href="#seeleQuestions">Заказать обратный звонок</a>
       </div>
     </div>
   </header>
 
-  <nav class="nav" id="nav">
+  <nav class="nervNav">
     <ul class="nav-list">
       <li class="nav-item"><a href="index.html">Главная</a></li>
       <li class="nav-item has-drop">
@@ -70,26 +70,58 @@
   </section>
 
   <section class="categories">
-    <div class="container" id="categories"></div>
+    <div class="container lilithList">
+      <div class="category">
+        <img src="img/cat-bracelets.jpg" alt="Браслеты Michael Kors" style="object-position: 50% 92%">
+        <div class="category-text"><h2>Браслеты <br>Michael Kors</h2>
+          <a class="btn-outline" href="#">Смотреть все</a></div>
+      </div>
+      <div class="category category--reverse">
+        <img src="img/cat-bags.jpg" alt="Сумки Michael Kors">
+        <div class="category-text"><h2>Сумки <br>Michael Kors</h2>
+          <a class="btn-outline" href="#">Смотреть все</a></div>
+      </div>
+      <div class="category">
+        <img src="img/cat-backpacks.jpg" alt="Рюкзаки Michael Kors">
+        <div class="category-text"><h2>Рюкзаки <br>Michael Kors</h2>
+          <a class="btn-outline" href="#">Смотреть все</a></div>
+      </div>
+      <div class="category category--reverse">
+        <img src="img/cat-wallets.jpg" alt="Кошельки Michael Kors">
+        <div class="category-text"><h2>Кошельки <br>Michael Kors</h2>
+          <a class="btn-outline" href="#">Смотреть все</a></div>
+      </div>
+    </div>
   </section>
 
   <section class="reasons">
     <div class="container">
       <h2>5 причин купить аксессуары <br>Michael Kors у нас</h2>
-      <div class="reasons-list" id="reasons-list"></div>
+      <div class="angelReasons">
+        <div class="reason"><div class="reason-icon"><img src="img/icons/reason1.svg" alt=""></div>
+          <h3>Официальный сайт, <br>интернет магазин Michael Kors</h3><p>Остерегайтесь контрафактных <br>товаров Майкл Корс. На них не <br>распространяется официальная <br>гарантия производителя.</p></div>
+        <div class="reason"><div class="reason-icon"><img src="img/icons/reason2.svg" alt=""></div>
+          <h3>Лучшая цена на аксессуары <br>Michael Kors</h3><p>Купите часы, сумки, рюкзаки, кошельки, <br>клатчи Майкл Корс оригинал по лучшей цене. <br>Сравните и убедитесь сами, что лучше <br>предложения не найти!</p></div>
+        <div class="reason"><div class="reason-icon"><img src="img/icons/reason3.svg" alt=""></div>
+          <h3>Официальная гарантия <br>на все аксессуары Michael Kors</h3><p>Приобретая мужские и женские <br>аксессуары Майкл Корс у нас, Вам <br>предоставляется официальный <br>гарантийный талон.</p></div>
+        <div class="reason"><div class="reason-icon"><img src="img/icons/reason4.svg" alt=""></div>
+          <h3>Бесплатная и быстрая доставка <br>по всей России</h3><p>В среднем доставка по России от 2-х до 5-ти <br>дней. По Москве и Санкт-Петербургу <br>доставка осуществляется на следующий день <br>после заказа.</p></div>
+        <div class="reason"><div class="reason-icon"><img src="img/icons/reason5.svg" alt=""></div>
+          <h3>Официальный каталог <br>Michael Kors в России</h3><p>В нашем официальном каталоге <br>огромный выбор оригинальных часов, <br>сумок, рюкзаков, кошельков, клатчей <br>Майкл Корс по лучшей цене.</p></div>
+      </div>
     </div>
   </section>
 
-  <section class="questions home-questions" id="questions">
+  <section class="seeleQuestions home-questions">
     <h2>Остались вопросы?</h2>
     <p class="questions-sub">Заполните форму и мы свяжемся с Вами</p>
     <div class="form">
-      <input type="text" id="form-name" placeholder="Ваше имя">
-      <input type="text" id="form-phone" placeholder="Телефон">
-      <input type="text" id="form-comment" class="wide" placeholder="Комментарий">
+      <input class="gendoName" type="text" placeholder="Ваше имя">
+      <input class="fuyutsukiPhone" type="text" placeholder="Телефон">
+      <input type="text" class="wide ritsukoComment" placeholder="Комментарий">
     </div>
-    <button class="btn-beige" id="send-button">Отправить</button>
-    <p class="form-message" id="form-message"></p>
+    <button class="btn-beige misatoBtn">Отправить</button>
+    <p class="makotoMessage"></p>
   </section>
 
   <footer class="footer">
@@ -98,8 +130,8 @@
       <p class="footer-brand">Фирменные аксессуары Michael Kors <br>с доставкой по всей России</p>
       <p class="footer-subscribe-title">Подпишись на новинки и скидки</p>
       <div class="subscribe-form">
-        <input type="text" id="subscribe-email" placeholder="E-mail">
-        <button id="subscribe-button">Отправить</button>
+        <input class="kajiEmail" type="text" placeholder="E-mail">
+        <button class="reiBtn">Отправить</button>
       </div>
       <ul class="footer-links footer-links--1">
         <li><a href="catalog.html">Женские часы</a></li>
@@ -113,13 +145,13 @@
         <li><a href="#">Гарантия</a></li>
         <li><a href="delivery.html">Доставка</a></li>
         <li><a href="#">Отзывы</a></li>
-        <li><a href="about.html#brands">Другие бренды</a></li>
+        <li><a href="about.html#ikariBrands">Другие бренды</a></li>
         <li><a href="certificate.html">Корпоративные подарки</a></li>
         <li><a href="about.html">О компании</a></li>
       </ul>
       <div class="footer-phone">
         <a class="phone-number" href="tel:88003027915">8 (800) 302 79 15</a>
-        <a class="callback" href="#questions">Заказать обратный звонок</a>
+        <a class="callback" href="#seeleQuestions">Заказать обратный звонок</a>
       </div>
       <div class="footer-social">
         <a href="#"><img src="img/icons/youtube.svg" alt="YouTube"></a>
@@ -127,8 +159,6 @@
       </div>
     </div>
   </footer>
-
-  <script src="js/main.js"></script>
-  <script src="js/home.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
